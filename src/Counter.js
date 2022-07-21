@@ -5,7 +5,7 @@ export default class Counter extends Component {
     return (
       <div>
         <button>-</button>
-        <span>0</span>
+        <span>{this.props.initialCount}</span>
         <button>+</button>
       </div>
     );
